@@ -136,7 +136,13 @@ Hour <- CCES_2018 %>%
   )
 
 ggplot(Hour, aes(x = hour, y = n))+
-  geom_line()
+  geom_line()+
+  xlab("Hour (Local Time)")+
+  ylab("Number of Respondents")+
+  labs(
+    title = "When do people start the CCES?"
+  )+
+  theme_bw()
 
 # *********************************************************************
 # MAP EXERCISES ###########
@@ -202,6 +208,11 @@ ggplot()+
     high = "gray0",
     na.value = "black", 
     limits   = c(0, 100)
+  )+
+  labs(
+    title    = "Illinois",
+    subtitle = "Number of CCES Respondents from Each County", 
+    fill     = "Number of \n Respondents"
   )+
   theme_void()
 
