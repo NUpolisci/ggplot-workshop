@@ -1,5 +1,7 @@
 # Pipes and `ggplot` Workshop @ Northwestern University
 
+Learn how to increase efficiency and comfort with common commands and packages from the `tidyverse` series, specifically `dplyr` and `ggplot`. The workshop will focus on familiarizing attendees with the basics of each package and the use of pipes to streamline code. This session will also briefly touch on time and spatial data to demonstrate how these basic commands can be applied to address more complex issues.
+
 ### Instructor: Jennifer Lin
 
 ## Folder materials
